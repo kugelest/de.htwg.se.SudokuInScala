@@ -1,16 +1,16 @@
 name          := "Sudoku in Scala"
 organization  := "de.htwg.se"
 version       := "0.14.0"
-scalaVersion  := "2.12.7"
+scalaVersion  := "2.12.13"
 
-libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.5"
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.15"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.15" % "test"
 
 libraryDependencies += "org.scala-lang.modules" % "scala-swing_2.12" % "2.0.3"
 
-libraryDependencies += "com.google.inject" % "guice" % "4.1.0"
+libraryDependencies += "com.google.inject" % "guice" % "5.1.0"
 
-libraryDependencies += "net.codingwell" %% "scala-guice" % "4.1.0"
+libraryDependencies += "net.codingwell" %% "scala-guice" % "5.1.0"
 
 libraryDependencies += "org.scala-lang.modules" % "scala-xml_2.12" % "1.0.6"
 

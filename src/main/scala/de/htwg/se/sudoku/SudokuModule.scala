@@ -12,7 +12,7 @@ class SudokuModule extends AbstractModule with ScalaModule {
 
   val defaultSize: Int = 9
 
-  def configure(): Unit = {
+  override def configure(): Unit = {
     bindConstant().annotatedWith(Names.named("DefaultSize")).to(defaultSize)
     bind[GridInterface].to[Grid]
     bind[ControllerInterface].to[controllerBaseImpl.Controller]
